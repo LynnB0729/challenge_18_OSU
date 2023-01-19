@@ -1,6 +1,23 @@
+img {
+    background-color: pink;
+}
+
 .areaSection {
     border: blue 5px solid;
 }
+
+.mainTitle {
+    border: orange 5px solid;
+}
+
 .skill1 {
     border: red 5px solid;
+}
+
+.skill2 {
+    border: green 5px solid;
+}
+
+.skill3 {
+    border: purple 5px solid;
 }

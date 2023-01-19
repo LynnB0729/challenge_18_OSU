@@ -9,44 +9,49 @@
     display: flex;
     justify-content: center;
     border: orange 5px solid;
-
 }
 
 .flexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     border: pink 5px solid; 
+    display: flex;
+    justify-content: center;
+    
 }
 
 .flexChild1 {
     border: teal 5px dotted;
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .flexChild2 {
     border: teal 5px dotted;
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .flexChild3 {
     border: teal 5px dotted;
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .skill1 {
     border: red 5px solid;
+
 }
 
 .skill2 {
     border: green 5px solid;
+    display: flex;
+    justify-content: center;
 }
 
 .skill3 {
     border: purple 5px solid;
+    display: flex;
+    justify-content: center;
 }
-
-
 
 /*STYLING FOR WORK SKILLS SECTION */
 
@@ -62,7 +67,6 @@
     display: flex;
     border: pink 5px solid;
     flex-direction: column;
-
 }
 
 .flexChild1_2 {

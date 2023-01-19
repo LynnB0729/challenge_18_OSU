@@ -2,15 +2,36 @@
 
 .areaSection {
     border: blue 5px solid;
+    margin: 10px 175px 25px 175px; 
 }
 
 .mainTitle {
+    display: flex;
+    justify-content: center;
     border: orange 5px solid;
+
 }
 
 .flexContainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     border: pink 5px solid; 
+}
+
+.flexChild1 {
+    border: teal 5px dotted;
+    width: 20%;
+}
+
+.flexChild2 {
+    border: teal 5px dotted;
+    width: 20%;
+}
+
+.flexChild3 {
+    border: teal 5px dotted;
+    width: 20%;
 }
 
 .skill1 {
@@ -42,6 +63,18 @@
     border: pink 5px solid;
     flex-direction: column;
 
+}
+
+.flexChild1_2 {
+    border: teal 5px dotted;
+}
+
+.flexChild2_2 {
+    border: teal 5px dotted;
+}
+
+.flexChild3_2 {
+    border: teal 5px dotted;
 }
 
 .workSkill1 {

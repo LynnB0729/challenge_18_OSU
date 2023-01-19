@@ -1,6 +1,4 @@
-img {
-    background-color: pink;
-}
+/*STYLING FOR UX SKILLS SECTION */
 
 .areaSection {
     border: blue 5px solid;
@@ -8,6 +6,11 @@ img {
 
 .mainTitle {
     border: orange 5px solid;
+}
+
+.flexContainer {
+    display: flex;
+    border: pink 5px solid; 
 }
 
 .skill1 {
@@ -19,5 +22,36 @@ img {
 }
 
 .skill3 {
+    border: purple 5px solid;
+}
+
+
+
+/*STYLING FOR WORK SKILLS SECTION */
+
+.workSection {
+    border: blue 5px solid;
+}
+
+.skillsTitle {
+    border: orange 5px solid; 
+}
+
+.flexContainer2 {
+    display: flex;
+    border: pink 5px solid;
+    flex-direction: column;
+
+}
+
+.workSkill1 {
+    border: red 5px solid;
+}
+
+.workSkill2 {
+    border: green 5px solid; 
+}
+
+.workSkill3 {
     border: purple 5px solid;
 }

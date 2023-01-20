@@ -1,8 +1,21 @@
 /*STYLING FOR UX SKILLS SECTION */
+p{
+ display: flex;
+}
+
+img {
+    display: flex; 
+    border: orchid solid 2px; 
+}
+
+button {
+    background-color: magenta; 
+    color: white;
+}
 
 .areaSection {
     border: blue 5px solid;
-    margin: 10px 175px 25px 175px; 
+ 
 }
 
 .mainTitle {
@@ -14,31 +27,31 @@
 .flexContainer {
     border: pink 5px solid; 
     display: flex;
-    justify-content: center;
-    
+    align-items: center;
 }
 
 .flexChild1 {
     border: teal 5px dotted;
+    flex-direction: column;
     display: flex;
-    justify-content: space-around;
 }
 
 .flexChild2 {
     border: teal 5px dotted;
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    display: flex; 
 }
 
 .flexChild3 {
     border: teal 5px dotted;
+    flex-direction: column;
     display: flex;
-    justify-content: space-around;
 }
 
 .skill1 {
     border: red 5px solid;
-
+    display: flex;
+    justify-content: center;
 }
 
 .skill2 {

@@ -15,7 +15,6 @@ button {
 
 .areaSection {
     border: blue 5px solid;
- 
 }
 
 .mainTitle {
@@ -68,8 +67,16 @@ button {
 
 /*STYLING FOR WORK SKILLS SECTION */
 
+.workButton {
+    height: 50px;
+    width: 125px;
+}
+
 .workSection {
     border: blue 5px solid;
+    display: grid; 
+    grid-template-rows: 1fr 5fr;
+
 }
 
 .skillsTitle {
@@ -77,9 +84,10 @@ button {
 }
 
 .flexContainer2 {
-    display: flex;
     border: pink 5px solid;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .flexChild1_2 {

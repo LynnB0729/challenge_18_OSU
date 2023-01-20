@@ -3,7 +3,7 @@ p{
  display: flex;
 }
 
-img {
+.skills_img {
     display: flex; 
     border: orchid solid 2px; 
 }
@@ -15,6 +15,7 @@ button {
 
 .areaSection {
     border: blue 5px solid;
+    padding: 50px;
 }
 
 .mainTitle {
@@ -26,25 +27,27 @@ button {
 .flexContainer {
     border: pink 5px solid; 
     display: flex;
-    align-items: center;
 }
 
 .flexChild1 {
     border: teal 5px dotted;
     flex-direction: column;
     display: flex;
+    padding: 20px;
 }
 
 .flexChild2 {
     border: teal 5px dotted;
     flex-direction: column;
-    display: flex; 
+    display: flex;
+    padding: 20px;  
 }
 
 .flexChild3 {
     border: teal 5px dotted;
     flex-direction: column;
     display: flex;
+    padding: 20px;
 }
 
 .skill1 {
@@ -67,49 +70,57 @@ button {
 
 /*STYLING FOR WORK SKILLS SECTION */
 
-.workButton {
-    height: 50px;
-    width: 125px;
-}
-
 .workSection {
     border: blue 5px solid;
-    display: grid; 
-    grid-template-rows: 1fr 5fr;
-
+    padding: 50px;
 }
 
 .skillsTitle {
-    border: orange 5px solid; 
+    border: orange 5px solid;
+    text-align: center;
 }
 
 .flexContainer2 {
     border: pink 5px solid;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+   
 }
 
 .flexChild1_2 {
     border: teal 5px dotted;
+    padding: 20px;
 }
 
 .flexChild2_2 {
     border: teal 5px dotted;
+    padding: 20px;
 }
 
 .flexChild3_2 {
     border: teal 5px dotted;
+    padding: 20px;
 }
 
 .workSkill1 {
     border: red 5px solid;
+    text-align: center;
+
 }
 
 .workSkill2 {
-    border: green 5px solid; 
+    border: green 5px solid;
+    text-align: center; 
 }
 
 .workSkill3 {
     border: purple 5px solid;
+    text-align: center;
+}
+
+.skills_img { 
+    margin: 0 0 0 45px;;
 }

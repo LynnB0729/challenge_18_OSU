@@ -1,8 +1,7 @@
 /*STYLING FOR UX SKILLS SECTION */
-p{
- display: flex;
+body {
+    background-color: grey;
 }
-
 .skills_img {
     display: flex; 
     border: orchid solid 2px; 
@@ -81,13 +80,37 @@ button {
 }
 
 .flexContainer2 {
-    border: pink 5px solid;
+    border: pink 5px solid;   
+}
+
+.work_img {
+    border: orchid 5px solid;
+
+}
+
+
+.wrapGrid {
+    border: yellow solid 3px;
     display: grid;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px;
-   
+    grid-template-columns: 1fr 4fr; 
+}
+
+.smallGrid{
+   border: black solid 3px; 
+   display: grid;
+   grid-template-rows: 1fr 1fr; 
+   grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.workButton {
+    background-color: tan; 
+    height: 60px; 
+    grid-area: 2 / 2 / 2 / 3;
+
+}
+
+.insideP {
+    grid-area: 1 / 1 / 1 / 4;
 }
 
 .flexChild1_2 {
@@ -121,6 +144,8 @@ button {
     text-align: center;
 }
 
-.skills_img { 
-    margin: 0 0 0 45px;;
-}
+@media screen and (max-width: 800px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
